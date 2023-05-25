@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PIZZA INN!!!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+  </style>
+
+<div class="header">
+  <h1>PIZZA INN MKA</h1>
+  <p>AN MKA PRODUCTIONS</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About Us</a>
+  <a href="#">Info</a>
+  <a href="#" class="right">More</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <h5>A dilectable</h5>
+    <div class="IMAGE" style="height:200px;"><img src="images\ivan-torres-MQUqbmszGGM-unsplash.jpg" style="height:200px;" alt=""></div>
+    <p>The homemade pizza dough is produced in-house daily and is another reason why the pizza at Pizza Inn always tastes better. The Twisty Bread, the signature Wingz and the delicious Double Meal are additional value-for-money options that keep our satisfied customers coming back time after time. These are the meals that have made our Terrific Tuesday everyone’s favorite day of the week. When entertaining, a Hawaiian pizza, a Regina pizza, or a Peri Peri Chicken pizza from Pizza Inn is the obvious and perfect option to please crowds of all ages.</p>
+    <h3>More About Us</h3>
+    <p> Simbisa Kenya has been operating in Kenya for more than 20 years. We have various brands that complement each other, these include; Chicken Inn, Pizza Inn, Creamy Inn, Galito's, Stop & Shop & Bakers Inn. We also operate My Shop convenience stores in select Oilibya Fuel Stations.</p>
+    <div class="image" style="height:60px;"><img src="images\pizza.jpg" style="height:200px;" alt=""></div><br>
+    <div class="image" style="height:60px;"><img src="images\inn.jpg" style="height:10px" alt=""></div><br>
+    <div class="image" style="height:10px;"><img src="images\pisa.jpg" style="height:10px;" alt=""></div>
+  </div>
+  <div class="main">
+    <h2>Pizza Inn MKA</h2>
+    <h5>description, May 18th, 2023</h5>
+    <div class="image" style="height:200px;"><img src="images\old.jpg" style="height:200px;" alt=""></div>
+    <p>Small Text About Us</p>
+    <p>Chicken pizza is the most popular pizza flavour, with over 15,960 deliveries, followed by Pepperoni and Margarita, according to 2022 consumption trends by Glovo in Kenya. Data shows that Kenyans are big fans of Chicken Pizza, and in 12 months, they have ordered more than 135,000 pizzas through Glovo.</p>
+    <br>
+    <h2>More About Pizza</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="image" style="height:150px;"><img src="images\nice.jpg" alt=""></div>
+    <p>Something little about us</p>
+    <p>Pizza Inn. In 1958, two Texas brothers opened the first Pizza Inn across from the Southern Methodist University campus in Dallas. As word spread of the restaurant's exceptional pizza and friendly service, so did Pizza Inn locations across the Heartland.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>THANK YOU FOR BUYING OUR PIZZA.
+      COME AGAIN!!
+  </h2>
+</div>
+
+</body>
+</html>
